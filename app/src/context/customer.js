@@ -2,8 +2,8 @@ import React, {createContext, useContext, useState} from 'react';
 
 const CustomerContext = createContext({
   customer: {
-    id: 'cus_L2icM86gIjXtf7',
-    name: 'Medflow App',
+    id: 'id_customer',
+    name: 'App Test',
   },
   setCustomer: () => {},
 });
